@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ICT602_GroupProject</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="link">
+
+        <a href = "https://github.com/FaizShaari/ICT602Assignment">Click Here!</a>
+
+    </string>
+</resources>

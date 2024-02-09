@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBEAEB"
+    tools:context=".About">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2F3C7E"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="286dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aladin"
+        android:text="Developers Details"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/about_toolbar"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="-55dp"
+        android:background="#FBEAEB"
+        app:srcCompat="@drawable/developer" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="210dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FFEDC2"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/member1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/acme"
+                        android:text="Muhammad Aiman Alif bin Safaee"
+                        android:textAlignment="center"
+                        android:textColor="#2F3C7E"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/acme"
+                        android:text="(2022464296)"
+                        android:textAlignment="center"
+                        android:textColor="#2F3C7E"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="210dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FFEDC2"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/member2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/acme"
+                        android:text="Muhammad Haikal bin Nafisol"
+                        android:textAlignment="center"
+                        android:textColor="#2F3C7E"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/acme"
+                        android:text="(2022800938)"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#2F3C7E"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="210dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FFEDC2"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/member3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/acme"
+                        android:text="Muhammad Alif Haikal bin Mohd Tajudin "
+                        android:textAlignment="center"
+                        android:textColor="#2F3C7E"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/acme"
+                        android:text="(2021486068)"
+                        android:textAlignment="center"
+                        android:textColor="#2F3C7E"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="210dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#FFEDC2"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/member4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/acme"
+                        android:text="Muhammad Faiz bin Shaari"
+                        android:textAlignment="center"
+                        android:textColor="#2F3C7E"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/acme"
+                        android:text="(2022660534)"
+                        android:textAlignment="center"
+                        android:textColor="#2F3C7E"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/aladin"
+        android:text="About Application"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-45dp"
+        android:background="#FBEAEB"
+        app:srcCompat="@drawable/about" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="224dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        app:cardBackgroundColor="#FFEDC2"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/acme"
+            android:lineSpacingExtra="8sp"
+            android:text="CrisisMapper keeps you in the know about floods and landslides in real time. It's easy to use and taps into community insights for up-to-date environmental information. Get alerts, stay informed, and navigate safely with us. Let's build a safer community together! Below is the url of this application :"
+            android:textAlignment="center"
+            android:textColor="#2F3C7E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="180dp"
+            android:text="@string/link" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="175dp"
+            app:srcCompat="@drawable/here" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Copyright (c) 2024 CrisisMapper. All rights reserved."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+</LinearLayout>

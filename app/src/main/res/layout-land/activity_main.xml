@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBEAEB"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2F3C7E"
+        android:backgroundTint="#2F3C7E"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="182dp"
+                android:layout_height="157dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="50dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="348dp"
+                android:layout_height="81dp"
+                android:layout_marginLeft="190dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:text="Welcome to CrisisMapper!"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="24sp"
+                android:typeface="normal" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="376dp"
+                android:layout_height="332dp"
+                android:layout_marginLeft="190dp"
+                app:cardBackgroundColor="#FFEDC2"
+                app:cardCornerRadius="10dp"
+                app:contentPaddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="240dp"
+                    android:fontFamily="@font/b612"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Navigate through safety effortlessly, as we embark on a journey towards a safer tomorrow."
+                    android:textColor="#2F3C7E" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="235dp"
+                    app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="190dp"
+                    android:fontFamily="@font/b612"
+                    android:lineSpacingExtra="4sp"
+                    android:text="View detailed cases about floods and landslides."
+                    android:textColor="#2F3C7E" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="190dp"
+                    app:srcCompat="@android:drawable/checkbox_on_background" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="139dp"
+                    android:fontFamily="@font/b612"
+                    android:lineSpacingExtra="4sp"
+                    android:text="View floods and landslides cases through Maps."
+                    android:textColor="#2F3C7E" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="140dp"
+                    app:srcCompat="@android:drawable/checkbox_on_background" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="107dp"
+                    android:fontFamily="@font/b612"
+                    android:text="Here there are 2 things that you can do :"
+                    android:textColor="#2F3C7E" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/btn_star_big_on" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="@font/b612"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Step into a world of awareness with CrisisMapper! Your go-to hub for real-time updates on floods and landslides, fueled by the power of community insights"
+                    android:textColor="#2F3C7E" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/buttonMaps"
+                android:layout_width="169dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#2F3C7E"
+                android:text="Open Maps"
+                app:icon="@android:drawable/ic_dialog_map" />
+
+            <Button
+                android:id="@+id/buttonDisplay"
+                android:layout_width="169dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="430dp"
+                android:layout_marginTop="-79dp"
+                android:backgroundTint="#2F3C7E"
+                android:text="Display News"
+                app:icon="@android:drawable/ic_dialog_info" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
